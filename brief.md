@@ -19,10 +19,18 @@ The mobile app should only ask for device permissions that are essential to it
 Resource: Android Developers - Request app permissions - https://developer.android.com/training/permissions/requesting
 
 ## Networking
+DNS over HTTPS (DoH) carries DNS requests inside an encrypted HTTPS connection, making it harder for others on the same network to see or alter them. This added privacy can be useful when people use a government login service, but it does not conceal everything they do online or defend against every threat. DoH works best alongside sound network settings and other privacy measures.
+
+Source: RFC Editor, RFC 8484, “DNS Queries over HTTPS (DoH)” — https://www.rfc-editor.org/rfc/rfc8484
 
 ## Cybersecurity
+Phishing-resistant authentication prevents citizens from being phished by attackers looking to harvest passwords or login codes. National login services might consider strong authentication options, such as security keys or passkeys, in addition to monitoring and account recovery protections. Security controls need to be routinely tested and should protect accounts in a manner that does not unduly deter legitimate users from using the government services.
+Resource: NIST - Digital Identity Guidelines, SP 800-63B - https://pages.nist.gov/800-63-4/sp800-63b.html
 
 ## Data
+A national login service can have access to personal information including name, ID information, and logs of authentication. Data protection involves being necessary in data collection, restricting access to the data to those are authorized to do so and ensuring the data is protected while stored and in transit. Transparent retention policies and responsible management mitigate privacy risk and foster public trust. The organizations also should comply with the relevant laws, rules, and procedures for data protection.
+
+Resource: [logy - https://www.mtcit.gov.om/](https://prod.mtcit.gov.om/ITAPortal/MediaCenter/Document_detail.aspx?NID=10154)
 
 ## Misconception in My Track
 
