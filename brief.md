@@ -33,5 +33,8 @@ A national login service can have access to personal information including nam
 Resource: [logy - https://www.mtcit.gov.om/](https://prod.mtcit.gov.om/ITAPortal/MediaCenter/Document_detail.aspx?NID=10154)
 
 ## Misconception in My Track
+It is widely misunderstood that OAuth 2.0 is sufficient to authenticate a user. OAuth 2.0 is, at its core, an authorization protocol that enables an application to access protected resources with authorization. OpenID Connect also introduces an identity layer which allows the application to determine the identity of the End-User. Mistaking one for the other will result in an insecure login design. A national digital identity service should use correct protocols and properly validate tokens rather than treat every access token as an identity.
+Resource: OpenID Foundation - How OpenID Connect Works - https://openid.net/foundation/how-connect-works/
 
 ## Open Question
+How can a national login service balance strong phishing-resistant authentication with accessibility for citizens who use older devices or have limited digital skills?
